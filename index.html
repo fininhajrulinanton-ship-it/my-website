@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт на GitHub Pages</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #e74c3c;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #c0392b;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Успех!</h1>
+        <p>Ваш сайт работает на GitHub Pages</p>
+        <p>Теперь вы можете добавить больше страниц и функционала</p>
+        <a href="#" class="btn">Начать работу</a>
+    </div>
+
+    <script>
+        // Простой JavaScript для демонстрации
+        console.log('Сайт загружен успешно!');
+        
+        // Добавляем интерактивность
+        document.querySelector('.btn').addEventListener('click', function(e) {
+            e.preventDefault();
+            alert('Сайт работает корректно!');
+        });
+    </script>
+</body>
+</html>
